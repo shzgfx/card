@@ -1,0 +1,28 @@
+html {
+
+    box-sizing: border-box;
+
+}
+
+*, *:before, *:after {
+
+    box-sizing: inherit;
+
+}
+
+body {
+    background: #1d2d44;   
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    position: relative;
+    max-width: 624px;
+    background-color: #F8F8F8;
+    border-radius: 16px;
+    
+}
